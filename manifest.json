@@ -26,7 +26,7 @@
 	"staticTabs": [{
         "entityId": "com.contoso.helloworld.hellotab",
         "name": "Egekomp Servis",
-        "contentUrl": "https://egekomp-servis.herokuapp.com/servis.html",
+        "contentUrl": "https://egekomp-servis.herokuapp.com/index.php",
         "scopes": [
 			"team",
             "personal"
