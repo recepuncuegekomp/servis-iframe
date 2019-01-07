@@ -1,0 +1,42 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.3/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.3",
+    "version": "1.0.0",
+    "id": "98f49a50-e7b5-4228-9f44-dff3b35a1e8d",
+    "packageName": "com.servis.egekomp",
+    "developer": {
+        "name": "Recep UNCU",
+        "websiteUrl": "https://www.egekomp.com/websiteUrl",
+        "privacyUrl": "https://www.egekomp.com/privacyUrl",
+        "termsOfUseUrl": "https://www.egekomp.com/termsOfUseUrl"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "EgekompServis",
+        "full": "Egekomp Servis Takip Programı"
+    },
+    "description": {
+        "short": "Egekomp Servis Takip Programı",
+        "full": "Egekomp Servis Takip Programı"
+    },
+    "accentColor": "#FFFFFF",
+	"staticTabs": [{
+        "entityId": "com.contoso.helloworld.hellotab",
+        "name": "Hello Tab",
+        "contentUrl": "https://egekomp-servis/servis.html",
+        "scopes": [
+			"team",
+            "personal"
+        ]
+    }],    
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "www.egekomp.com"
+    ]
+}
